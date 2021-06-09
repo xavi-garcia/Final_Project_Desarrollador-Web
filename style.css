@@ -1,0 +1,142 @@
+/*Selector Universal*/
+* {
+padding: 0%;
+margin: 0%;
+color: rgb(124, 3, 124);
+text-decoration: none;
+background-color: #f8aed3;
+}
+
+/*Space between sections*/
+.col-lg-12 {
+    background-color: black;
+    padding: 20px;
+}
+
+/*Navbar*/
+#navbarSupportedContent {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+.dropdown-item {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+/*Body*/
+body {
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: none;
+    background-color: #f1bdd7;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 160, 205);
+}
+
+h5 {
+    background-image: none;
+    background-color: none;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    border: 1px solid violet;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;  
+}
+
+/*Artist's Section*/
+.col-lg-3{
+    background-color: black;
+}
+
+.col-lg-9 {
+    background-color: black;
+}
+
+.p-artist {
+    padding: 210px 40px;
+    background-color: black;
+}
+
+.paragraph {
+    padding:10px;
+    background-image:rgb(248, 155, 170); 
+}
+
+.image-artist {
+    display: flex;
+    align-content: flex-start;
+    background-color:black;
+    border: solid black;
+    padding: 100px 30px;
+}
+
+.image-artist1 {
+    background-color: black;
+}
+
+/* Exhibition Section*/
+.col-lg-4 {
+    background-color: rgb(250, 160, 205);
+}
+
+.imagesexhibition {
+    background-color: rgb(250, 160, 205);
+}
+
+.paragraphexhibition {
+    padding: 60px;
+    background-color: rgb(250, 160, 205);
+    color: black;
+    font-size: 1.5em;
+   font-weight: bolder;
+}
+
+.pintureriagarin2 {
+    padding-left: 20px;
+    background-color: rgb(250, 160, 205)
+}
+
+.italics {
+    color: black;
+    background-color: rgb(250, 160, 205);
+
+}
+
+/*Animation*/
+#zoom-in img {
+    transform: scale(1);
+    transition: 0.4s ease-in;
+}
+#zoom-in:hover img {
+    transform: scale(1.5);
+}
+
+/*Sección de pie*/
+footer {
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    color: rgb(236, 93, 205);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+.divmenu {
+    padding: 10px;
+}
+
+.footlink {
+    text-decoration: none;
+    color: rgb(124, 3, 124);
+}

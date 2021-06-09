@@ -1,0 +1,41 @@
+/*Variables*/
+$f-family:'Courier New', Courier, monospace;
+$f-size: 1em;
+$bg-color:black;
+
+/*Mixin*/
+@mixin font-style {
+    font-family:$f-family;
+    font-size:$f-size;
+}
+
+/*Universal Features*/
+
+* {
+    padding: 0%;
+    margin: 0%;
+    color: rgb(124, 3, 124);
+    text-decoration: none;
+    background-color: #f8aed3;
+    }
+   
+/*Space between sections*/
+.col-lg-12 {
+    background-color:$bg-color;
+    padding: 20px;
+}
+    
+/*Navbar*/
+#navbarSupportedContent {
+    @include font-style()
+}
+    
+.dropdown-item {
+   @include font-style()
+}
+
+/*Artists' Pictures*/
+.col-lg-6 {
+    background-color: $bg-color;
+    font-family: $f-family;
+}

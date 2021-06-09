@@ -1,0 +1,35 @@
+/*Variables*/
+/*Mixin*/
+/*Universal Features*/
+* {
+  padding: 0%;
+  margin: 0%;
+  color: #7c037c;
+  text-decoration: none;
+  background-color: #f8aed3;
+}
+
+/*Space between sections*/
+.col-lg-12 {
+  background-color: black;
+  padding: 20px;
+}
+
+/*Navbar*/
+#navbarSupportedContent {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+}
+
+.dropdown-item {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+}
+
+/*Artists' Pictures*/
+.col-lg-6 {
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*# sourceMappingURL=styleartistspaintings.css.map */
