@@ -39,3 +39,17 @@ $bg-color:black;
     background-color: $bg-color;
     font-family: $f-family;
 }
+
+.row {
+    background-color: $bg-color;
+}
+
+/*Paragraphs*/
+p {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: $bg-color;
+    font-family: $f-family;
+    font-size: $f-size;
+}

@@ -26,13 +26,14 @@
     color: rgb(124, 3, 124);
     text-decoration: none;
     background-color: #f8aed3;
-    }
-    
+}
+   
 /*Space between sections*/
 .col-lg-12 {
     background-color: black;
     padding: 20px;
 }
+
 /*Links*/
 .extrareading {
     background-color: palevioletred;
@@ -51,15 +52,17 @@
     font-size: 1em;
 }
 
-/*Video*/
-.video {
-    width: 400px;
-  
-    
+/*Paragraph*/
+.aboutme {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: rgb(211, 43, 226);
 }
-.col-lg-3 {
+
+.row {
     background-color: black;
 }
+
 p {
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
@@ -70,10 +73,25 @@ p {
    
 }
 
+.col-lg-6 {
+    background-color: black;
+    padding: 10px;
+}
+
+.col-lg-3 {
+    background-color: black;
+}
+
+/*Video*/
+.video {
+    width: 400px; 
+}
+
 /*Animation*/
 #zoom-in img {
     transform: scale(1);
     transition: 0.4s ease-in;
+    padding: 10px;
 }
 #zoom-in:hover img {
     transform: scale(1.5);
