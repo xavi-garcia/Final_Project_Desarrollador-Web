@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*MediaQuery para Teléfonos*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
   /*Imagenes*/
   .containeruno {
     display: block;
