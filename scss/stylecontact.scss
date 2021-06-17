@@ -1,7 +1,14 @@
 
 @import 'base/variables';
 
-@import '_selectoruniversal.scss';
+/*Universal Characteristics*/
+* {
+    padding: 0%;
+    margin: 0%;
+    color: rgb(124, 3, 124);
+    text-decoration: $t-decoration;
+}
+
       
 @import '_navbar.scss';
 
@@ -29,10 +36,27 @@ label {
     background-color:$bg-color;
     padding: 50px;
     color: white;
-    background-color: black;
 }
 
-@import '_footer.scss';
+/*Footer*/
+footer {
+    padding: 10px;
+    color: rgb(236, 93, 205);
+    font-family:$f-family;
+    font-size: 1em;
+    @extend %flexbox;
+    background-color: #f8aed3;
+    
+}
+    
+.divmenu {
+    padding: 10px;
+}
+    
+.footlink {
+    text-decoration:$t-decoration;
+    color: rgb(124, 3, 124);
+}
 
 @import '_spacebetweensections.scss'
 

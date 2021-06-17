@@ -120,13 +120,10 @@ footer {
   color: #7c037c;
 }
 
-/*Universal Characteristics*/
-* {
-  padding: 0%;
-  margin: 0%;
-  color: #7c037c;
-  text-decoration: none;
-  background-color: #f8aed3;
+/*Space between sections*/
+.col-lg-12 {
+  background-color: black;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=styletheartist.css.map */
