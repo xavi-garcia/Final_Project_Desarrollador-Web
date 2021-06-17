@@ -1,0 +1,24 @@
+
+@import 'base/_variables.scss';
+
+/*Carousel*/
+.container1 {
+    display: flex;
+    justify-content: center;
+    background-color:$bg-color2;
+}
+    
+h5 {
+        background-image: none;
+        background-color: none;
+        font-size: 1em;
+        padding: 0;
+        margin: 0;
+        border: 1px solid violet;
+        text-decoration:$t-decoration;
+}
+    
+a {
+        text-decoration:$t-decoration;  
+}
+

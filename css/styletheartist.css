@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/*MediaQuery para Teléfonos*/
+@media only screen and (max-width: 400px) {
+  /*Video*/
+  .video-paragraph {
+    display: flex;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+
+  .video-paragraph video {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/*Universal Characteristics*/
+* {
+  padding: 0%;
+  margin: 0%;
+  color: #7c037c;
+  text-decoration: none;
+  background-color: #f8aed3;
+}
+
+/*Links*/
+.extrareading {
+  background-color: palevioletred;
+  text-decoration: none;
+  color: #7c037c;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/*Navbar*/
+#navbarSupportedContent {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+}
+
+.dropdown-item {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+}
+
+/*Paragraph*/
+.aboutme {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  color: #d32be2;
+}
+
+.row {
+  background-color: black;
+}
+
+p {
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  color: white;
+  background-color: black;
+  padding: 50px;
+}
+
+.col-lg-6 {
+  background-color: black;
+  padding: 10px;
+}
+
+.col-lg-3 {
+  background-color: black;
+}
+
+/*Video*/
+.video {
+  width: 400px;
+}
+
+/*Animation*/
+#zoom-in img {
+  transform: scale(1);
+  transition: 0.4s ease-in;
+}
+
+#zoom-in:hover img {
+  transform: scale(1.5);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/*Footer*/
+footer {
+  padding: 10px;
+  color: #ec5dcd;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+}
+
+.divmenu {
+  padding: 10px;
+}
+
+.footlink {
+  text-decoration: none;
+  color: #7c037c;
+}
+
+/*Universal Characteristics*/
+* {
+  padding: 0%;
+  margin: 0%;
+  color: #7c037c;
+  text-decoration: none;
+  background-color: #f8aed3;
+}
+
+/*# sourceMappingURL=styletheartist.css.map */

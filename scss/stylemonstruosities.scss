@@ -1,0 +1,65 @@
+/*MediaQuery para Teléfonos*/
+@media only screen and (max-width:400px) {
+    /*Imagenes*/
+    .containeruno {
+        display: block;
+        flex-wrap: wrap;
+    }
+    
+    .relative {
+        display: block;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    
+    .items {
+        padding: 15px;
+    }
+    
+    div.desc {
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        padding: 10px;
+        text-align: center;
+      }
+    }
+
+@import 'base/variables';
+
+@import 'functions/extends';
+
+@import '_selectoruniversal.scss';
+     
+@import '_navbar.scss';
+    
+/*Images*/
+ .containeruno {
+    @extend %flexbox;
+    background-color: $bg-color;
+}
+    
+.relative {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: $bg-color;
+}
+    
+.items {
+    padding: 30px;
+    background-color: $bg-color;
+}
+    
+div.desc {
+    @extend %flexbox;
+    padding: 10px;
+    font-family: $f-family;
+    color:white;
+    background-color: $bg-color;
+}
+    
+@import '_animation.scss';
+
+@import '_footer.scss';
+
+@import '_spacebetweensections.scss'

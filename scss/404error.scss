@@ -1,0 +1,29 @@
+
+@import 'base/variables';
+
+@import '_selectoruniversal.scss';
+
+
+/*Body*/
+body {
+    background-color: $bg-color;
+}
+
+div {
+    padding: 8px;
+    background-color: rgb(171, 114, 224);
+    font-family: $f-family;
+}
+
+h1 {
+    font-family: $f-family;
+    font-weight: bolder;
+}
+
+.col-lg-12 {
+    background-color: $bg-color;
+    padding: 20px;
+}
+
+
+@import '_footer.scss'

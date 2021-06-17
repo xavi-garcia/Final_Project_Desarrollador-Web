@@ -53,3 +53,22 @@ p {
     font-family: $f-family;
     font-size: $f-size;
 }
+
+/*Sección de pie*/
+footer {
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    color: rgb(236, 93, 205);
+    font-family: $f-family;
+    font-size: 1em;
+}
+
+.divmenu {
+    padding: 10px;
+}
+
+.footlink {
+    text-decoration: none;
+    color: rgb(124, 3, 124);
+}

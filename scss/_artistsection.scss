@@ -1,0 +1,35 @@
+    
+@import 'base/variables';    
+
+/*Artist's Section*/
+.col-lg-3 {
+    background-color:$bg-color;
+}
+    
+.col-lg-9 {
+    background-color:$bg-color;
+}
+    
+.p-artist {
+    padding: 210px 40px;
+    background-color:$bg-color;
+}
+    
+.paragraph {
+    padding:10px;
+    background-color:$bg-color;
+}
+    
+.image-artist {
+    display: flex;
+    align-content: flex-start;
+    background-color:$bg-color;
+    border: solid black;
+    padding: 100px 30px;
+}
+    
+.image-artist1 {
+    background-color:$bg-color;
+}
+
+

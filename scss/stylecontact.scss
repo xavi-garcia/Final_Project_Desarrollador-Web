@@ -1,0 +1,38 @@
+
+@import 'base/variables';
+
+@import '_selectoruniversal.scss';
+      
+@import '_navbar.scss';
+
+/*Text*/
+.row {
+    background-color:$bg-color;
+}
+
+.column {
+    background-color:$bg-color;
+}
+
+p {
+    @extend %flexbox;
+    padding: 50px;
+    background-color:$bg-color;
+    font-family: $f-family;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+label {
+    @extend %flexbox;
+    background-color:$bg-color;
+    padding: 50px;
+    color: white;
+    background-color: black;
+}
+
+@import '_footer.scss';
+
+@import '_spacebetweensections.scss'
+

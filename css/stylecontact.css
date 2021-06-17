@@ -1,7 +1,4 @@
-@charset "UTF-8";
-/*Variables*/
-/*Mixin*/
-/*Universal Features*/
+/*Universal Characteristics*/
 * {
   padding: 0%;
   margin: 0%;
@@ -10,10 +7,9 @@
   background-color: #f8aed3;
 }
 
-/*Space between sections*/
-.col-lg-12 {
-  background-color: black;
-  padding: 20px;
+footer, label, p {
+  display: flex;
+  justify-content: center;
 }
 
 /*Navbar*/
@@ -27,31 +23,39 @@
   font-size: 1em;
 }
 
-/*Artists' Pictures*/
-.col-lg-6 {
-  background-color: black;
-  font-family: "Courier New", Courier, monospace;
-}
-
+/*Text*/
 .row {
   background-color: black;
 }
 
-/*Paragraphs*/
-p {
-  display: flex;
-  justify-content: center;
-  padding: 15px;
+.column {
   background-color: black;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1em;
 }
 
-/*Sección de pie*/
-footer {
-  padding: 10px;
+p {
+  padding: 50px;
+  background-color: black;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+label {
+  background-color: black;
+  padding: 50px;
+  color: white;
+  background-color: black;
+}
+
+footer, p, label {
   display: flex;
   justify-content: center;
+}
+
+/*Footer*/
+footer {
+  padding: 10px;
   color: #ec5dcd;
   font-family: "Courier New", Courier, monospace;
   font-size: 1em;
@@ -66,4 +70,10 @@ footer {
   color: #7c037c;
 }
 
-/*# sourceMappingURL=styleartistspaintings.css.map */
+/*Space between sections*/
+.col-lg-12 {
+  background-color: black;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=stylecontact.css.map */
