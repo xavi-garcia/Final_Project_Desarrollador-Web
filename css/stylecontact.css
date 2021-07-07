@@ -4,6 +4,7 @@
   margin: 0%;
   color: #7c037c;
   text-decoration: none;
+  background-color: #f8aed3;
 }
 
 footer, label, p {
@@ -23,21 +24,50 @@ footer, label, p {
 }
 
 /*Text*/
-.row {
-  background-color: black;
+.form {
+  background-color: #f8aed3;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
 }
 
-.column {
+input {
+  background-color: aliceblue;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 1em;
+}
+
+.d-flex {
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 180px;
+}
+
+button {
+  padding: 5px;
+  font-family: "Yomogi", cursive;
+  border-radius: 1em;
+  color: black;
+  background-color: #8381fc;
+}
+
+button:hover {
+  color: palevioletred;
   background-color: black;
 }
 
 p {
   padding: 50px;
-  background-color: black;
   font-family: "Courier New", Courier, monospace;
   color: white;
   font-weight: bolder;
   font-size: 1.5em;
+  letter-spacing: 2px;
+}
+
+p:hover {
+  color: black;
 }
 
 label {
@@ -49,6 +79,7 @@ label {
 /*Footer*/
 footer {
   padding: 10px;
+  justify-content: last baseline;
   color: #ec5dcd;
   font-family: "Courier New", Courier, monospace;
   font-size: 1em;

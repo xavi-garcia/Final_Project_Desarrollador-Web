@@ -1,19 +1,17 @@
 /*MediaQuery para Teléfonos*/
 @media only screen and (max-width:900px) {
-    /*Imagenes*/
-    .containeruno {
-        display: block;
-        flex-wrap: wrap;
-    }
+
     
+    /*Imagenes*/
     .relative {
         display: block;
-        flex-wrap: wrap;
-        padding: 20px;
+        flex-wrap: wrap
     }
     
     .items {
-        padding: 15px;
+        display: block;
+        flex-wrap: wrap;
+        
     }
     
     div.desc {
@@ -22,7 +20,17 @@
         padding: 10px;
         text-align: center;
       }
+    
+    h1 {
+        padding: 0%;
+        padding-left: 0%;
+        font-size: small;
     }
+      
+
+    }
+
+    
 
 @import 'base/variables';
 
@@ -31,7 +39,31 @@
 @import '_selectoruniversal.scss';
      
 @import '_navbar.scss';
-    
+
+/*Paragraph*/
+
+h1 {
+    padding: 20%;
+    background-color: $bg-color;
+    color: whitesmoke;
+    font-family:$f-family;
+    font-size: 2em;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1:hover {
+    background-color: rgb(131, 129, 252);
+    color: $bg-color;
+    font-weight: bolder;
+    font-size: 3em;
+
+}
+
+
+
 /*Images*/
  .containeruno {
     @extend %flexbox;
@@ -49,7 +81,8 @@
     padding: 30px;
     background-color: $bg-color;
 }
-    
+
+
 div.desc {
     @extend %flexbox;
     padding: 10px;
@@ -57,7 +90,19 @@ div.desc {
     color:white;
     background-color: $bg-color;
 }
-    
+
+img {
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+img:hover {
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+
+
 @import '_animation.scss';
 
 @import '_footer.scss';

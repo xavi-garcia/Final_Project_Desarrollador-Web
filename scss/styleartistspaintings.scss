@@ -18,7 +18,10 @@ $bg-color:black;
     text-decoration: none;
     background-color: #f8aed3;
     }
-   
+
+
+
+
 /*Space between sections*/
 .col-lg-12 {
     background-color:$bg-color;
@@ -35,23 +38,35 @@ $bg-color:black;
 }
 
 /*Artists' Pictures*/
-.col-lg-6 {
-    background-color: $bg-color;
-    font-family: $f-family;
+.work-title {
+    font-family:'Yomogi', cursive;
+    letter-spacing: 4;
 }
 
-.row {
-    background-color: $bg-color;
-}
-
-/*Paragraphs*/
-p {
+h3 {
     display: flex;
     justify-content: center;
-    padding: 15px;
-    background-color: $bg-color;
-    font-family: $f-family;
-    font-size: $f-size;
+    padding: 3% 0% 0%;
+    color: black;
+}
+
+h3:hover {
+    font-family:$f-family;
+    padding: 2%;
+    color:blueviolet
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    color: black;
+}
+
+span:hover {
+    font-family:$f-family;
+    padding: 2%;
+    color: blueviolet;
 }
 
 /*Sección de pie*/

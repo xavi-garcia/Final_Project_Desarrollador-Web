@@ -1,23 +1,4 @@
 
-/*MediaQuery para Teléfonos*/
-
-@media only screen and (max-width:400px) {
-    /*Video*/
-   .video-paragraph {
-      display: flex;
-      width: 100%;
-      padding-bottom: 56.25%; 
-      height: 0;
-   }
-  
-   .video-paragraph video {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      width: 100%;
-      height: 100%;
-   }
-  }
   
 @import 'base/variables';
 
@@ -28,47 +9,92 @@
   
 /*Links*/
 .extrareading {
-    background-color: palevioletred;
     text-decoration:$t-decoration;
     color: rgb(124, 3, 124);
+    background-color: $bg-color;
 }
-  
+
+.extrareading:hover {
+    color: yellow;
+}
+
 @import '_navbar.scss';
 
 /*Paragraph*/
-.aboutme {
-    font-family: $f-family;
-    font-size: 2em;
-    color: rgb(211, 43, 226);
-}
-  
+
+
 .row {
       background-color: $bg-color;
 }
   
 p {
     justify-content: center;
-    font-family: $f-family;
+    font-family:'Yomogi', cursive;
     font-weight: bolder;
-    color: white;
+    color: whitesmoke;
     background-color: $bg-color;
-    padding: 50px; 
+    padding: 60px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(131, 129, 252);
+}
+
+.paragraph-magazine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Yomogi', cursive;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: $bg-color;
+    padding: 60px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(131, 129, 252);
+}
+
+.link {
+    background-color: $bg-color;
+    text-decoration: none;
+    color: pink;
+}
+
+.link:hover {
+    color: yellow;
+}
+
+h3 {
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Yomogi', cursive;
+    font-size: 1em;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    background-color: none;
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgb(131, 129, 252);
+}
+
+.img-supreme {
+    padding: 15px;
+    background-color: black;
 }
   
 .col-lg-6 {
     background-color:$bg-color;
-    padding: 10px;
 }
   
 .col-lg-3 {
     background-color:$bg-color;
 }
-  
-/*Video*/
-.video {
-    width: 400px; 
+
+.col-lg-9 {
+    background-color: $bg-color;
 }
-  
+
 @import '_animation.scss';
 
 @import '_footer.scss';

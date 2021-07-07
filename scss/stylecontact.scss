@@ -7,28 +7,59 @@
     margin: 0%;
     color: rgb(124, 3, 124);
     text-decoration: $t-decoration;
+    background-color: #f8aed3;
 }
 
       
 @import '_navbar.scss';
 
 /*Text*/
-.row {
-    background-color:$bg-color;
+.form {
+    background-color: #f8aed3;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
 }
 
-.column {
-    background-color:$bg-color;
+input {
+    background-color: aliceblue;
+    padding: 10px;
+    font-family: $f-family;
+    border-radius: 1em;
+}
+
+.d-flex {
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 180px;
+}
+
+button {
+    padding: 5px;
+    font-family:'Yomogi', cursive;
+    border-radius: 1em;
+    color: black;
+    background-color:rgb(131, 129, 252);
+}
+
+button:hover {
+    color:palevioletred;
+    background-color: black;
 }
 
 p {
     @extend %flexbox;
     padding: 50px;
-    background-color:$bg-color;
     font-family: $f-family;
     color: white;
     font-weight: bolder;
     font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+p:hover {
+    color:$bg-color;
 }
 
 label {
@@ -41,6 +72,7 @@ label {
 /*Footer*/
 footer {
     padding: 10px;
+    justify-content: last baseline;
     color: rgb(236, 93, 205);
     font-family:$f-family;
     font-size: 1em;

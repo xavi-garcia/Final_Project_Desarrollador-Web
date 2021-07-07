@@ -28,23 +28,35 @@
 }
 
 /*Artists' Pictures*/
-.col-lg-6 {
-  background-color: black;
-  font-family: "Courier New", Courier, monospace;
+.work-title {
+  font-family: "Yomogi", cursive;
+  letter-spacing: 4;
 }
 
-.row {
-  background-color: black;
-}
-
-/*Paragraphs*/
-p {
+h3 {
   display: flex;
   justify-content: center;
-  padding: 15px;
-  background-color: black;
+  padding: 3% 0% 0%;
+  color: black;
+}
+
+h3:hover {
   font-family: "Courier New", Courier, monospace;
-  font-size: 1em;
+  padding: 2%;
+  color: blueviolet;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  color: black;
+}
+
+span:hover {
+  font-family: "Courier New", Courier, monospace;
+  padding: 2%;
+  color: blueviolet;
 }
 
 /*Sección de pie*/

@@ -1,24 +1,58 @@
 
 @import 'base/_variables.scss';
 
-/*Carousel*/
-.container1 {
-    display: flex;
-    justify-content: center;
-    background-color:$bg-color2;
-}
-    
-h5 {
-        background-image: none;
-        background-color: none;
-        font-size: 1em;
-        padding: 0;
-        margin: 0;
-        border: 1px solid violet;
-        text-decoration:$t-decoration;
-}
-    
-a {
-        text-decoration:$t-decoration;  
+
+/*Spotify*/
+.spotify {
+        display: flex;
 }
 
+/*Carousel*/
+
+.row {
+        padding: 15px;
+}
+
+
+.col-lg-3 {
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+} 
+
+
+h1 {
+        padding: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family:'Yomogi', cursive;
+        font-size: 1em;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        background-color: none;
+        border-width: 6px;
+        border-style: solid;
+        border-color: rgb(131, 129, 252);
+}
+
+h2 {
+        padding: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: $f-family;
+        font-size: 1em;
+        letter-spacing: 3px;
+        border-width: 6px;
+        border-style: solid;
+        border-color: rgb(131, 129, 252);
+}
+
+h1:hover {
+        background-color: plum;
+}
+
+h2:hover {
+        background-color: rgb(144, 122, 165);
+}

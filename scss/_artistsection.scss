@@ -11,25 +11,42 @@
 }
     
 .p-artist {
-    padding: 210px 40px;
-    background-color:$bg-color;
+    padding: 210px 50px;
+    font-size: 1.5em;
+    font-family:'Yomogi', cursive;
+    background-color: $bg-color;
 }
-    
+.col-lg-12 {
+    background-color: #f8aed3;
+}
+
 .paragraph {
     padding:10px;
     background-color:$bg-color;
+    font-family:'Yomogi', cursive;
+    letter-spacing: 5px;
 }
-    
+
+.paragraph:hover {
+    background-color: plum;
+}
+
 .image-artist {
     display: flex;
     align-content: flex-start;
     background-color:$bg-color;
     border: solid black;
-    padding: 100px 30px;
+    padding: 100px 20px;
+    transition: all 2s ease;
 }
-    
-.image-artist1 {
-    background-color:$bg-color;
+
+.image-artist:hover {
+    transform: translateX(80px);
+}
+
+.rounded-circle {
+    max-width: 700px;
+    max-height: 300px;
 }
 
 

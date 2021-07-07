@@ -2,19 +2,14 @@
 /*MediaQuery para Teléfonos*/
 @media only screen and (max-width: 900px) {
   /*Imagenes*/
-  .containeruno {
-    display: block;
-    flex-wrap: wrap;
-  }
-
   .relative {
     display: block;
     flex-wrap: wrap;
-    padding: 20px;
   }
 
   .items {
-    padding: 15px;
+    display: block;
+    flex-wrap: wrap;
   }
 
   div.desc {
@@ -22,6 +17,12 @@
     color: black;
     padding: 10px;
     text-align: center;
+  }
+
+  h1 {
+    padding: 0%;
+    padding-left: 0%;
+    font-size: small;
   }
 }
 footer, div.desc, .containeruno {
@@ -54,6 +55,25 @@ footer, div.desc, .containeruno {
   font-size: 1em;
 }
 
+/*Paragraph*/
+h1 {
+  padding: 20%;
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+h1:hover {
+  background-color: #8381fc;
+  color: black;
+  font-weight: bolder;
+  font-size: 3em;
+}
+
 /*Images*/
 .containeruno {
   background-color: black;
@@ -78,6 +98,16 @@ div.desc {
   background-color: black;
 }
 
+img {
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+img:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
 /*Animation*/
 #zoom-in img {
   transform: scale(1);
@@ -96,13 +126,14 @@ footer, .containeruno, div.desc {
 /*Footer*/
 footer {
   padding: 10px;
-  color: #ec5dcd;
+  color: #f8aed3;
   font-family: "Courier New", Courier, monospace;
   font-size: 1em;
 }
 
 .divmenu {
   padding: 10px;
+  background-color: #f8aed3;
 }
 
 .footlink {
